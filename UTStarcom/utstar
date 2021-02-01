@@ -1,0 +1,30 @@
+# UTStarcom configurations
+
+username: ****
+password: ********
+
+--In priviledge mode
+> profile show adsl
+> slot 4  # select slot no.
+> vlan show 222
+port
+> disable dsl 2
+> profile 8MB port dsl 2
+> enable dsl 2
+slot+port
+> show line dsl 2   # Give running status
+> exit
+
+# port reset
+--In priviledge mode
+> slot 4
+> port
+> disable dsl 2
+> enable dsl 2
+exit
+
+vlan
+> no inerface atm 2:0.35 vid 222
+> interface atm 2:0.35 vid 222 untag
+
+exit
