@@ -1,0 +1,19 @@
+# Huawei login procedures
+
+login: ****
+password: ********
+
+> enable    # Double Enter
+
+> show vlan 222       # adsl 0/1/2 --> note down card and port no.
+> configure terminal
+> board-adsl 1        # card no.
+> show line status 2   # port no.--> shows parameters
+> show port status    # for checking profile  
+> show adsl line-profile all  # Lists all available ADSL profiles
+> configure terminal
+> board-adsl 1
+> deactivate 2 
+> active 0/2
+
+> quit
