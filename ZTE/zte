@@ -1,0 +1,17 @@
+# Profile Configurations
+
+username : ****
+password : ********
+
+> en
+password: ********
+> show vlan 222
+> show adsl profile
+> show interface 1/11 port-status
+> show interface 1/11
+> show adsl physical 1/11
+config
+> interface adsl 1/11
+> adsl profile 8MB.PRF    # Assigning profile to particular connection  
+exit
+exit
