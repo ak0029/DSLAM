@@ -1,0 +1,17 @@
+# Huawei New DSLAM
+
+usid : ****
+Pass : ********
+
+> en
+> display adsl line-profile 
+> display line operation port 0/2/32   # F/S/P --> for checking particular port profile 
+> display vlan 224  
+
+> config
+> interface adsl 0/2 
+> display port state 32
+
+> deactivate 32
+> activate 32 profile-index 4  # 4 --> profile NO. in Mbps
+>quit
