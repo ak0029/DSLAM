@@ -6,12 +6,14 @@ password : ********
 > en
 password: ********
 > show vlan 222
-> show adsl profile
+> show adsl profile     # Lists all profiles
 > show interface 1/11 port-status
 > show interface 1/11
 > show adsl physical 1/11
 config
 > interface adsl 1/11
+> shutdown
+> no shutdown
 > adsl profile 8MB.PRF    # Assigning profile to particular connection  
 exit
 exit
