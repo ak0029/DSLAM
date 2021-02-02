@@ -1,0 +1,8 @@
+# Some BNG commands
+
+username: ****
+password: ********
+
+> context mgmt
+> show arp <DSLAM IP>
+> show pppoesubscriber 3/2 vlan-id 2226;29   # OVLAN/INVLAN
