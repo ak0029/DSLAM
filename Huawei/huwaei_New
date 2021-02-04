@@ -4,7 +4,7 @@ usid : ****
 Pass : ********
 
 > en
-> display adsl line-profile 
+> display adsl line-profile            # Display ADSL profiles
 > display line operation port 0/2/32   # F/S/P --> for checking particular port profile 
 > display vlan 224  
 
