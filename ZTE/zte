@@ -7,7 +7,7 @@ password : ********
 password: ********
 > show vlan 222
 > show adsl profile     # Lists all profiles
-> show interface 1/11 port-status
+> show interface 1/11 port-status     # gives port status
 > show interface 1/11
 > show adsl physical 1/11
 config
