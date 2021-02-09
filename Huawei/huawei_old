@@ -13,7 +13,7 @@ password: ********
 > show adsl line-profile all  # Lists all available ADSL profiles
 > configure terminal
 > board-adsl 1
-> deactivate 2 
-> active 0/2
+> deactivate 2        # deactivationg particular port
+> active 0/2          # activating particular port
 
 > quit
