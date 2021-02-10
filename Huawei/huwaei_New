@@ -9,7 +9,7 @@ Pass : ********
 > display vlan 224  
 
 > config
-> interface adsl 0/2 
+> interface adsl 0/2          # selecting particular slot
 > display port state 32
 
 > deactivate 32
