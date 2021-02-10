@@ -10,7 +10,7 @@ Pass : ********
 
 > config
 > interface adsl 0/2          # selecting particular slot
-> display port state 32
+> display port state 32       # Displaying state of selected port
 
 > deactivate 32
 > activate 32 profile-index 4  # 4 --> profile NO. in Mbps
