@@ -13,5 +13,5 @@ Pass : ********
 > display port state 32       # Displaying state of selected port
 
 > deactivate 32               # deactivate port 32
-> activate 32 profile-index 4  # 4 --> profile NO. in Mbps
+> activate 32 profile-index 4  # 4 --> profile NO. in Mbps--- activate port 32 also
 >quit
