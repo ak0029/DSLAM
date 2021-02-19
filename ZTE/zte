@@ -9,7 +9,7 @@ password: ********
 > show adsl profile     # Lists all profiles
 > show interface 1/11 port-status     # gives port status
 > show interface 1/11
-> show adsl physical 1/11
+> show adsl physical 1/11       # showing adsl parametrs of particular physical port
 config
 > interface adsl 1/11
 > shutdown
