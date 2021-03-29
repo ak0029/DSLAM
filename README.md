@@ -1,5 +1,5 @@
 # DSLAM
-DSLAM (Digital Subscriber Line Access Multiplexer)
+DSLAM (Digital Subscriber Line Access Multiplexer).
 
 ## Operations including 
 - Assigning particular profile to port
